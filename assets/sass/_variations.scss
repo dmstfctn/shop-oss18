@@ -1,0 +1,527 @@
+body[data-current-product="corporate-structure-for-men-proxies"]{
+	.site--taxticker,
+	.site--emailform .email-message.success,
+	.site--emailform .button{
+		background: #1437ff;
+		color: #0f0f0f;
+	}
+	.product--details{
+		border-color:#0f0f0f;
+	}
+	.config--option.selected:before{
+		border-color: #1437ff;
+	}
+	.product--buy .button:first-child,
+	.product--buy .button:last-child{
+		border-color: #0f0f0f;
+	}
+	.product--details h1,
+	.product--buy .button,
+	.site--emailform .button{
+		color: #0f0f0f;
+		background: #1437ff;
+	}
+	/* EDIT: DISABLE SHOP */
+	.product--buy .button__add-to-cart, .product--buy .button__add-to-cart a{
+		background: #0f0f0f;
+		color: #1437ff;
+	}
+	.config--option.selected:before{
+		border-color: #1437ff;
+	}
+	.product--details .price,
+	.product--config,
+	.product--moreinfo,
+	.product--info{
+		color: #1437ff;
+		background: #0f0f0f;
+	}
+	.product--info a,
+	.product--image-nav{
+		color: #1437ff;
+	}
+	.product-slideshow .flickity-prev-next-button svg path,
+	.product--rotate svg path{
+		fill: #1437ff;
+		stroke:  #1437ff;
+	}
+	.cart--buy .buy-button-wrapper{
+		background: #1437ff;
+		color: #0f0f0f;
+		border-top-color: #0f0f0f;
+	}
+	.cart--buy .button-holder .button{
+		color: #0f0f0f;
+	}
+	.cart--email.active{
+		border-top-color: #1437ff;
+	}
+	.cart--buy .cart-button-or{
+		color: #0f0f0f;
+		&:before,
+		&:after{
+			background: #0f0f0f;
+		}
+	}
+	.button:before,
+	.button:after,
+	.email-message,
+	.site--emailform:after{
+		background: #0f0f0f;
+		color: #1437ff;
+	}
+	.sale-star{
+		&:after{
+			display: none;
+		}
+		.sale-star--text{
+			color: #0f0f0f;
+		}
+		.sale-star--star svg polygon{
+			fill: #1437ff;
+		}
+		.sale-star--star svg path{
+			fill: #0f0f0f;
+		}
+	}
+	@media ( max-width: $breakpoint ){
+		.product--details{
+			border-top: none;
+		}
+	}
+}
+body[data-current-product="corporate-structure-for-men-jurisdictions"]{
+	.site--taxticker,
+	.site--emailform .email-message.success,
+	.site--emailform .button{
+		background: #f6dd07;
+		color: #0f0f0f;
+	}
+	.product--details{
+		border-color:#0f0f0f;
+	}
+	.product--image-nav{
+		color: #f6dd07;
+	}
+	.product--details h1,
+	.product--buy .button,
+	.site--emailform .button{
+		background: #f6dd07;
+		color: #0f0f0f;
+	}
+	/* EDIT: DISABLE SHOP */
+	.product--buy .button__add-to-cart, .product--buy .button__add-to-cart a{
+		background: #0f0f0f;
+		color: #f6dd07;
+	}
+	.config--option.selected:before{
+		border-color: #f6dd07;
+	}
+	.product--buy .button:first-child,
+	.product--buy .button:last-child{
+		border-color: #0f0f0f;
+	}
+	.product--details .price,
+	.product--config,
+	.product--moreinfo{
+		color: #f6dd07;
+		background: #0f0f0f;
+	}
+	.product--info,
+	.product--info a{
+		color: #f6dd07;
+	}
+	.product-slideshow .flickity-prev-next-button svg path,
+	.product--rotate svg path{
+		fill: #f6dd07;
+		stroke: #f6dd07;
+	}
+	.cart--buy .buy-button-wrapper{
+		background: #f6dd07;
+		color: #0f0f0f;
+		border-top-color: #0f0f0f;
+	}
+	.cart--buy .button-holder .button{
+		color: #0f0f0f;
+	}
+	.cart--buy .cart-button-or{
+		&:before,
+		&:after{
+			background: #0f0f0f;
+		}
+	}
+	.button:before,
+	.button:after,
+	.email-message,
+	.site--emailform:after{
+		background: #0f0f0f;
+		color: #f6dd07;
+	}
+	.sale-star{
+		&:after{
+			background: #0f0f0f;
+		}
+		.sale-star--text{
+			color: #0f0f0f;
+		}
+		.sale-star--star svg polygon{
+			fill: #f6dd07;
+		}
+		.sale-star--star svg path{
+			fill: #0f0f0f;
+		}
+	}
+}
+body[data-current-product="under-the-sun-for-women-cyprus"]{
+	.site--taxticker,
+	.site--emailform .email-message.success,
+	.site--emailform .button{
+		background: #FA0E1B;
+		color: #0f0f0f;
+	}
+	.product--details{
+		border-color: #0f0f0f;
+	}
+	.product--details h1,
+	.product--buy .button,
+	.site--emailform .button{
+		background: #FA0E1B;
+		color: #0f0f0f;
+	}
+	/* EDIT: DISABLE SHOP */
+	.product--buy .button__add-to-cart, .product--buy .button__add-to-cart a{
+		background: #0f0f0f;
+		color: #FA0E1B;
+	}
+	.config--option.selected:before{
+		border-color: #FA0E1B;
+	}
+	.product--buy .button:first-child,
+	.product--buy .button:last-child{
+		border-color: #0f0f0f;
+	}
+	.product--details .price,
+	.product--config,
+	.product--moreinfo{
+		color: #FA0E1B;
+		background: #0f0f0f;
+	}
+	.product--info,
+	.product--info a,
+	.product--image-nav{
+		color: #FA0E1B;
+	}
+	.product-slideshow .flickity-prev-next-button svg path,
+	.product--rotate svg path{
+		fill: #FA0E1B;
+		stroke: #FA0E1B;
+	}
+	.cart--buy .buy-button-wrapper{
+		background: #FA0E1B;
+		color: #0f0f0f;
+		border-top-color: #0f0f0f;
+	}
+	.cart--buy .button-holder .button{
+		color: #0f0f0f;
+	}
+	.cart--buy .cart-button-or{
+		&:before,
+		&:after{
+			background: #0f0f0f;
+		}
+	}
+	.button:before,
+	.button:after,
+	.email-message,
+	.site--emailform:after{
+		background: #0f0f0f;
+		color: #FA0E1B;
+	}
+	.sale-star{
+		&:after{
+			background: #0f0f0f;
+		}
+		.sale-star--text{
+			color: #0f0f0f;
+		}
+		.sale-star--star svg polygon{
+			fill: #FA0E1B;
+		}
+		.sale-star--star svg path{
+			fill: #0f0f0f;
+		}
+	}
+}
+body[data-current-product="under-the-sun-for-women-uk"]{
+	.site--taxticker,
+	.site--emailform .email-message.success,
+	.site--emailform .button{
+		background: #f5f5f5;
+		color: #0f0f0f;
+	}
+	.product--image-nav{
+		color: #f5f5f5;
+	}
+	.product--details{
+		border-color: #0f0f0f;
+	}
+	.product--details h1,
+	.product--buy .button,
+	.site--emailform .button{
+		background: #f5f5f5;
+		color: #0f0f0f
+	}
+	/* EDIT: DISABLE SHOP */
+	.product--buy .button__add-to-cart, .product--buy .button__add-to-cart a{
+		background: #0f0f0f;
+		color: #f5f5f5;
+	}
+	.config--option.selected:before{
+		border-color: #f5f5f5;
+	}
+	.product--buy .button:first-child,
+	.product--buy .button:last-child{
+		border-color: #0f0f0f;
+	}
+	.product--details .price,
+	.product--config,
+	.product--moreinfo{
+		color: #f5f5f5;
+		background: #0f0f0f;
+	}
+
+	.product--info,
+	.product--info a{
+		color: #f5f5f5;
+	}
+	.product-slideshow .flickity-prev-next-button svg path,
+	.product--rotate svg path{
+		fill: #f5f5f5;
+		stroke: #f5f5f5;
+	}
+	.cart--buy .buy-button-wrapper{
+		background: #f5f5f5;
+		color: #0f0f0f;
+		border-top-color: #0f0f0f;
+	}
+	.cart--email.active{
+		border-top-color: #0f0f0f;
+	}
+	.cart--buy .button-holder .button{
+		color: #0f0f0f;
+	}
+	.cart--buy .cart-button-or{
+		&:before,
+		&:after{
+			background: #0f0f0f;
+		}
+	}
+	.button:before,
+	.button:after,
+	.email-message,
+	.site--emailform:after{
+		background: #f5f5f5;
+		color: #0f0f0f;
+	}
+	.sale-star{
+		&:after{
+			display: none;
+		}
+	}
+	@media ( max-width: $breakpoint ){
+		.product--details{
+			border-top: none;
+		}
+	}
+}
+body[data-current-product="under-the-sun-for-women-seychelles"]{
+	.site--taxticker,
+	.site--emailform .email-message.success,
+	.site--emailform .button{
+		background: #eae678;
+		//color: #312612;
+		color: #0f0f0f;
+	}
+	.product--image-nav{
+		color: #eae678;
+	}
+	.product--details{
+		//border-color: #312612;
+		border-color: #0f0f0f;
+	}
+	.product--details h1,
+	.product--buy .button,
+	.site--emailform .button{
+		background: #eae678;
+		// color: #312612;
+		color: #0f0f0f;
+	}
+	/* EDIT: DISABLE SHOP */
+	.product--buy .button__add-to-cart, .product--buy .button__add-to-cart a{
+		background: #0f0f0f;
+		color: #eae678;
+	}
+	.config--option.selected:before{
+		border-color: #eae678;
+	}
+	.product--buy .button:first-child,
+	.product--buy .button:last-child{
+		// border-color: #312612;
+		border-color: #0f0f0f;
+	}
+	.product--details .price,
+	.product--config,
+	.product--moreinfo{
+		color: #eae678;
+		//background: #312612;
+		background: #0f0f0f;
+	}
+	.product--info,
+	.product--info a{
+		color: #eae678;
+	}
+	.product-slideshow .flickity-prev-next-button svg path,
+	.product--rotate svg path{
+		fill: #eae678;
+		stroke: #eae678;
+	}
+	.cart--buy .buy-button-wrapper{
+		background: #eae678;
+		// color: #312612;
+		// border-top-color: #312612;
+		color: #0f0f0f;
+		border-top-color: #0f0f0f;
+	}
+	.cart--buy .button-holder .button{
+		//color: #312612;
+		color: #0f0f0f;
+	}
+	.cart--buy .cart-button-or{
+		&:before,
+		&:after{
+			//background: #312612;
+			background: #0f0f0f;
+		}
+	}
+	.button:before,
+	.button:after,
+	.email-message,
+	.site--emailform:after{
+		// background: #312612;
+		background: #0f0f0f;
+		color: #eae678;
+	}
+	.sale-star{
+		&:after{
+			//background: #312612;
+			background: #312612;
+		}
+		.sale-star--text{
+			// color: #312612;
+			color: #0f0f0f;
+		}
+		.sale-star--star svg polygon{
+			fill: #eae678;
+		}
+		.sale-star--star svg path{
+			// fill: #312612;
+			fill: #0f0f0f;
+		}
+	}
+}
+body[data-current-product="profit-for-all"]{
+	.site--taxticker,
+	.site--emailform .email-message.success,
+	.site--emailform .button{
+		background: #76e155;
+		color: #0f0f0f;
+	}
+	.product--details{
+		border-color: #0f0f0f;
+	}
+	.product--details h1,
+	.product--buy .button,
+	.site--emailform .button{
+		background: #76e155;
+		color: #0f0f0f;
+	}
+	/* EDIT: DISABLE SHOP */
+	.product--buy .button__add-to-cart, .product--buy .button__add-to-cart a{
+		background: #0f0f0f;
+		color: #76e155;
+	}
+	.config--option.selected:before{
+		border-color: #76e155;
+	}
+	.product--buy .button:first-child,
+	.product--buy .button:last-child{
+		border-color: #0f0f0f;
+	}
+	.product--details .price,
+	.product--config,
+	.product--moreinfo{
+		color: #76e155;
+		background: #0f0f0f;
+	}
+	.product--info,
+	.product--info a{
+		color: #76e155;
+	}
+	.product-slideshow .flickity-prev-next-button svg path,
+	.product--rotate svg path,
+	.product--rotate svg polygon{
+		fill: #76e155;
+		stroke: #76e155;
+	}
+	.cart--buy .buy-button-wrapper{
+		background: #76e155;
+		color: #0f0f0f;
+		border-top-color: #0f0f0f;
+	}
+	.cart--buy .button-holder .button{
+		color: #0f0f0f;
+	}
+	.cart--buy .cart-button-or{
+		&:before,
+		&:after{
+			background: #0f0f0f;
+		}
+	}
+	.button:before,
+	.button:after,
+	.email-message,
+	.site--emailform:after,
+	.product--image-nav{
+		color: #76e155;
+	}
+	.sale-star{
+		&:after{
+			background: #0f0f0f;
+		}
+		.sale-star--text{
+			color: #0f0f0f;
+		}
+		.sale-star--star svg polygon{
+			fill: #76e155;
+		}
+		.sale-star--star svg path{
+			fill: #0f0f0f;
+		}
+	}
+}
+
+body[data-about-visible="true"]{
+	.site--taxticker{
+		background: #f5f5f5;
+		color: #0f0f0f;
+	}
+	.site--header{
+		background: #f5f5f5;
+		color: #0f0f0f;
+		.toggle--about,
+		a,
+		.toggle--cart.toggle--cart__visible::after{
+			color: #0f0f0f;
+		}
+	}
+}

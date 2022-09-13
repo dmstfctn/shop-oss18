@@ -1,0 +1,235 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	font-size: 1.3vw;
+	margin: 0;
+	padding: 0;
+	font-family: $fontfamily;
+	font-weight: 700;
+	line-height: 1.15;
+	overflow: hidden;
+	position: fixed;
+	background-color: $colour_background;
+	-webkit-font-smoothing: antialiased;
+}
+
+	@media (min-width: 1100px ){
+		html, body{
+			font-size: 1.05vw;
+		}
+	}
+	@media (max-width: $breakpoint ){
+		html, body{
+			font-size: 15px;
+		}
+	}
+
+h1, h2, h3, h4, h5, h6{
+	font-size: 1em;
+	margin-top: 0;
+}
+
+a,
+.button{
+	text-decoration: none;
+	font-style: italic;
+	color: #0f0f0f;
+	cursor: pointer;
+}
+
+.button{
+	font-family: $fontfamily;
+	border: none;
+	font-size: 1em;
+	font-weight: 700;
+	display: inline-block;
+	text-indent: $padding;
+	padding-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: $padding;
+	height: $spacing;
+	line-height: $spacing;
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	outline: none;
+	-webkit-appearance: none;
+	&:before,
+	&:after{
+		height: 100%;
+		width: 100%;
+		display: block;
+		position: absolute;
+		top: 0;
+		transition: transform $transition_timing_snap ease-out, opacity $transition_timing_snap linear;
+	}
+	&:before{
+		content: '';
+		background: #0f0f0f;
+		transform: translateY( 110% ); //ensure it doesn't sometimes peek into button
+		z-index: 2;
+	}
+	&:after{
+		content: 'Complete';
+		color: #f5f5f5;
+		z-index: 3;
+		line-height: $spacing;
+		transform: translateY( 110% );
+	}
+	&[data-button--state="loading"]{
+		&:before{
+			opacity: 1;
+			transform: translateY( 0 );
+		}
+	}
+	&[data-button--state="complete"]{
+		&:before,
+		&:after{
+			opacity: 1;
+			transform: translateY( 0 );
+		}
+	}
+	&[data-button--state="wipe"]{
+		&:before,
+		&:after{
+			opacity: 0;
+		}
+	}
+}
+	.button-holder{
+		display: inline-block;
+	}
+
+.button__checkout{
+	background: #f5f5f5;
+	color: #0f0f0f;
+}
+
+.rotator{
+	cursor: pointer;
+	-moz-user-select: none;
+ 	-webkit-user-select: none;
+ 	-ms-user-select: none;
+ 	user-select: none;
+	width: $spacing + ($padding * 2);
+	height: $spacing + ($padding * 2);
+	svg{
+		width: 100%;
+		height: auto;
+		transform: rotateX( 65deg ) rotateZ( 0deg );
+		transition: transform $transition_timing ease-in-out;
+		-moz-user-select: none;
+	 	-webkit-user-select: none;
+	 	-ms-user-select: none;
+	 	user-select: none;
+	}
+	&.rotated svg{
+		transform: rotateX( 65deg ) rotateZ(180deg);
+	}
+}
+
+.rotator.slider{
+	svg{
+		transform: none;
+		transition: none;
+	}
+	&.rotated svg{
+		transform: scale( 1, -1 );
+		polygon{
+			fill: #0f0f0f;
+		}
+	}
+}
+
+.expander{
+	.expander--toggle{
+		cursor: pointer;
+	}
+	.expander--icon{
+		margin-left: .2em;
+		display: inline-block;
+	}
+	.expander--contents{
+		overflow: hidden;
+		max-height: 0;
+		transition: max-height $transition_timing ease-in-out;
+	}
+	&.expanded{
+		.expander--icon{
+			transform: rotate( 180deg ) translateY(-10%);
+		}
+		.expander--contents{
+			padding-bottom: $spacing * 3;
+			max-height: 5000px;
+		}
+	}
+}
+
+@media (max-width: $breakpoint ){
+	.expander.expanded .expander--contents{
+		max-height: 15000px;
+	}
+}
+
+.price{
+	width: 2.5em;
+	height: 2.5em;
+	background: #f5f5f5;
+	border-radius: 50%;
+	//line-height: 2.6em;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	.price--text{
+		letter-spacing: -.04em;
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX( -52% ) translateY( -50% );
+		@media (min-width: $breakpoint ){
+			transform: translateX( -52% ) translateY( -56% );
+		}
+	}
+}
+
+.sale-star{
+	width: 3.1em;
+	height: 3.1em;
+	color: #f5f5f5;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	.sale-star--star{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		svg{
+			width: 100%;
+			height: 100%;
+			polygon{
+				fill: #0f0f0f;
+			}
+		}
+	}
+	.sale-star--text{
+		letter-spacing: -.03em;
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 1;
+		line-height: 0.94;
+		font-size: 0.8em;
+		transform: translateX( -52% ) translateY( -50% ) rotate(	-11deg );
+		@media (min-width: $breakpoint ){
+			transform: translateX( -52% ) translateY( -50% ) rotate(	-11deg );
+		}
+	}
+
+}

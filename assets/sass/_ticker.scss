@@ -1,0 +1,42 @@
+.site--taxticker{
+	background: #f5f5f5;
+	color: #0f0f0f;
+	transition: color $transition_timing_snap ease-in-out, background $transition_timing_snap ease-in-out;
+	height: $spacing;
+	line-height: $spacing;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 11;
+	white-space: nowrap;
+	.ticker-item{
+		text-transform: uppercase;
+		box-sizing: border-box;
+		padding-right: $spacing * 3;
+		text-align: center;
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: -.09em;
+		white-space: nowrap;
+		.ticker-item--label,
+		.ticker-item--value{
+			font-size: 0.85em;
+			letter-spacing: 0.06em;
+			margin-right: .3em;
+		}
+	}
+}
+
+@media (max-width: $breakpoint){
+	.site--taxticker{
+		opacity: 0;
+		pointer-events: none;
+		top: auto;
+		bottom: 0;
+	}
+	body[data-about-visible="true"]{
+		.site--taxticker{
+			opacity: 1;
+		}
+	}
+}

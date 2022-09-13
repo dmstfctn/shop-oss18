@@ -1,0 +1,32 @@
+@import 'lib/_flickity';
+@import 'fonts';
+
+$breakpoint: 700px;
+
+$padding: 0.75em;
+$padding_rem: 0.75rem;
+// $spacing: 2.6em;
+// $spacing_rem: 2.6rem;
+$spacing: 2.35em;
+$spacing_rem: 2.35rem;
+
+$fontfamily: 'Neue Haas Unica', 'TeX Gyre Heros', 'helvetica neue', arial, helvetica, sans-serif;
+// $fontsize_large: 1.5625em;
+// $lineheight_large: 1.04;
+$fontsize_large: 1.6em;
+$fontsize_large_smalldevice: 1.4em;
+$lineheight_large: 1.15;
+
+$transition_timing: .5s;
+$transition_timing_snap: .2s;
+
+$colour_background: #0f0f0f;
+$colour_grey: #808285;
+
+@import 'base';
+@import 'header';
+@import 'ticker';
+@import 'about';
+@import 'products';
+@import 'cart';
+@import 'variations';

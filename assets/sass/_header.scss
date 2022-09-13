@@ -1,0 +1,106 @@
+.site--header{
+	height: $spacing;
+	//height: calc( 2.35em + 3px );
+	line-height: $spacing;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 $padding*2;
+	//display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	z-index: 5;
+	background: #000000;
+	color: #f5f5f5;
+	transition: background $transition_timing_snap ease-in-out, color $transition_timing_snap ease-in-out;
+	//border-bottom: 2px solid #f5f5f5;
+	a{
+		color: #f5f5f5;
+	}
+	.toggle--about,
+	.toggle--cart{
+		width: 6.15em;
+		display: inline-block;
+		font-weight: normal;
+	}
+	.toggle--cart{
+		float: right;
+		position: relative;
+		&.toggle--cart__visible{
+			color: transparent;
+			&:after{
+				color: #f5f5f5;
+				content: 'Close';
+				position: absolute;
+				left: 0;
+			}
+		}
+	}
+	h1{
+		font-size: 1em;
+		line-height: $spacing;
+		margin: 0;
+		display: inline-block;
+		text-align: center;
+		margin-right: $padding*4;
+		//margin-left: $spacing*2;
+	}
+}
+
+@media (max-width: $breakpoint){
+	.site--header{
+		top: 0;
+		width: 100%;
+		padding: 0 $padding;
+		border-bottom: none;
+		background: #0f0f0f;
+		h1{
+			text-align: left;			
+			width: 50%;
+			left: 0;			
+		}
+		.toggle--about,
+		.toggle--cart{
+			background: #0f0f0f;
+			color: #f5f5f5;
+			//border-top: 2px solid #f5f5f5;
+			position: absolute;			
+			top: 0;
+			width: 50%;
+			text-align: center;
+			transition: background $transition_timing_snap ease-in-out, color $transition_timing_snap ease-in-out;
+		}
+
+		.toggle--about{
+			left: 50%;
+			//border-right: 2px solid #f5f5f5;
+			text-align: right;
+			padding-right: $padding;
+			box-sizing: border-box;
+		}
+		.toggle--cart{
+			right: 0;
+			border-left: 2px solid #f5f5f5;
+			&.toggle--cart__visible:after{
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+
+	body[data-about-visible="true"]{
+		.site--header{
+			.toggle--about,
+			.toggle--cart{
+				background: #f5f5f5;
+				color: #0f0f0f;
+				border-color: #0f0f0f;
+
+			}
+			.toggle--cart.toggle--cart__visible:after{
+				background: #f5f5f5;
+			}
+		}
+	}
+}

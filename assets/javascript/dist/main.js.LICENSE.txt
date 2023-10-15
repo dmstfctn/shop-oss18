@@ -5,7 +5,7 @@ object-assign
 */
 
 /*!
- * Flickity v2.2.2
+ * Flickity v2.3.0
  * Touch, responsive, flickable carousels
  *
  * Licensed GPLv3 for open source use
@@ -16,24 +16,13 @@ object-assign
  */
 
 /*!
- * Sizzle CSS Selector Engine v2.3.6
- * https://sizzlejs.com/
- *
- * Copyright JS Foundation and other contributors
- * Released under the MIT license
- * https://js.foundation/
- *
- * Date: 2021-02-16
- */
-
-/*!
- * Unidragger v2.3.1
+ * Unidragger v2.4.0
  * Draggable base class
  * MIT license
  */
 
 /*!
- * Unipointer v2.3.0
+ * Unipointer v2.4.0
  * base class for doing one thing with pointer event
  * MIT license
  */
@@ -45,15 +34,12 @@ object-assign
  */
 
 /*!
- * jQuery JavaScript Library v3.6.0
+ * jQuery JavaScript Library v3.7.1
  * https://jquery.com/
- *
- * Includes Sizzle.js
- * https://sizzlejs.com/
  *
  * Copyright OpenJS Foundation and other contributors
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2021-03-02T17:08Z
+ * Date: 2023-08-28T13:37Z
  */
